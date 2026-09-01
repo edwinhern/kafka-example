@@ -1,3 +1,2 @@
 [tools]
-gradle = "latest"
-java = "latest"
+pnpm = "latest"

@@ -1,0 +1,25 @@
+{
+  "name": "kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "consumer": "node src/consumer.ts",
+    "producer": "node src/producer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.25.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.25.0",
+  "type": "module",
+  "dependencies": {
+    "@confluentinc/kafka-javascript": "^1.10.0"
+  }
+}
