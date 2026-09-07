@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "consumer": "node src/consumer.ts",
-    "producer": "node src/producer.ts"
+    "consumer": "tsx src/consumer-app.ts",
+    "producer": "tsx src/producer-app.ts"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +21,10 @@
   "type": "module",
   "dependencies": {
     "@confluentinc/kafka-javascript": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
   }
 }
